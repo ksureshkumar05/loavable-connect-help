@@ -22,8 +22,9 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-6">
           <Link to="/" className="text-blue-500 font-medium">HOME</Link>
+          <Link to="/support" className="text-gray-500 hover:text-blue-500 transition-colors font-medium">SUPPORT</Link>
+          <Link to="/appointments" className="text-gray-500 hover:text-blue-500 transition-colors font-medium">APPOINTMENTS</Link>
           <Link to="/features" className="text-gray-500 hover:text-blue-500 transition-colors font-medium">FEATURES</Link>
-          <Link to="/pricing" className="text-gray-500 hover:text-blue-500 transition-colors font-medium">PRICING</Link>
           <Link to="/about" className="text-gray-500 hover:text-blue-500 transition-colors font-medium">ABOUT</Link>
           <Link to="/contact" className="text-gray-500 hover:text-blue-500 transition-colors font-medium">CONTACT US</Link>
         </div>
@@ -43,8 +44,9 @@ const Navbar = () => {
         <div className="md:hidden mt-4 py-4 px-6 bg-white">
           <div className="flex flex-col space-y-3">
             <Link to="/" className="text-blue-500 font-medium">HOME</Link>
+            <Link to="/support" className="text-gray-500 hover:text-blue-500 transition-colors font-medium">SUPPORT</Link>
+            <Link to="/appointments" className="text-gray-500 hover:text-blue-500 transition-colors font-medium">APPOINTMENTS</Link>
             <Link to="/features" className="text-gray-500 hover:text-blue-500 transition-colors font-medium">FEATURES</Link>
-            <Link to="/pricing" className="text-gray-500 hover:text-blue-500 transition-colors font-medium">PRICING</Link>
             <Link to="/about" className="text-gray-500 hover:text-blue-500 transition-colors font-medium">ABOUT</Link>
             <Link to="/contact" className="text-gray-500 hover:text-blue-500 transition-colors font-medium">CONTACT US</Link>
             <Button variant="default" className="w-full bg-blue-500 hover:bg-blue-600 mt-2">
