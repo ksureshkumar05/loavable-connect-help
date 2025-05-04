@@ -14,8 +14,8 @@ const Index = () => {
           <Button asChild className="bg-blue-500 hover:bg-blue-600">
             <Link to="/support">Technical Support</Link>
           </Button>
-          <Button variant="outline" className="border-blue-500 text-blue-500 hover:bg-blue-50">
-            Learn More
+          <Button asChild variant="outline" className="border-blue-500 text-blue-500 hover:bg-blue-50">
+            <Link to="/appointment-launch">Appointment System</Link>
           </Button>
         </div>
       </div>
